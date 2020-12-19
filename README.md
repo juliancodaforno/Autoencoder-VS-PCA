@@ -2,7 +2,7 @@
 
 This code looks at autoencoders and compare their performance with an autoencoder-based PCA model. For this, we will use the MNIST dataset. The steps and results are well labelled in the jupyther notebook
 
-__PART A__: Three models are built: an autoencoder-based PCA, a 2-layer and a 3-layer autoencoder. The training and testing of these models on the MNIST dataset is provided. This provides comparison of their performances through visual output as well as by ccomputing the test set recontruction error. 
+__PART A__: Three models are built: an autoencoder-based PCA, a 2-layer and a 3-layer autoencoder. The training and testing of these models on the MNIST dataset is provided. This provides comparison of their performances through visual output as well as by ccomputing the test set recontruction error. <br>
 __PART B__: In this part, the code interpolates between two images in the latent space. This is done by first obtaining the encoded images:
 
 __latent1 = encoder(image1)__ 
