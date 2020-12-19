@@ -12,6 +12,6 @@ __latent2 = encoder(image2)__
 
 and then generating the new interpolated image using the following equation:
 
-__interpolated_image_lambda = decoder[$\lambda$ * latent1 + (1 - $\_lambda$) * latent2]__
+__interpolated_image_lambda = decoder[lambda * latent1 + (1 - lambda) * latent2]__
 
 Using the PCA model and then the autoencoder model and looking at the differences between the two interpolations , the code shows the substantial difference with autoencoders compared to PCA model.
