@@ -7,17 +7,16 @@ __PART B__: In this part, the code interpolates between two images in the latent
 
 
 <p align=center>
-latent\_1 = encoder(image\_1) 
+*latent1 = encoder(image1)* 
 </p>
 
 <p align=center>
-latent\_2 = encoder(image\_2)
+*latent2 = encoder(image2)*
 </p>
 
 and then generating the new interpolated image using the following equation:
 
-\begin{align}
-interpolated\_image\_\lambda = decoder[\lambda* latent\_1 + (1- \lambda) * latent\_2]
-\end{align}
-
+<p align=center>
+*interpolated_image_lambda = decoder[lambda * latent1 + (1 - lambda) * latent2]*
+</p>
 Using the PCA model and then the autoencoder model and looking at the differences between the two interpolations , the code shows the substantial difference with autoencoders compared to PCA model.
